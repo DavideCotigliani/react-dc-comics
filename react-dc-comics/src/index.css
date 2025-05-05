@@ -81,3 +81,40 @@ h1 {
 .didascalies {
   margin-top: 15px;
 }
+
+/* FOOTER */
+.dcBackground {
+  background-image: url(./assets/img/footer-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.allLists {
+  display: flex;
+}
+
+.firstList ul,
+.secondList ul,
+.thirdList ul {
+  flex-direction: column;
+  margin-left: 0px;
+  color: grey;
+  text-transform: none;
+  gap: 10px;
+  position: relative;
+}
+
+.fourthList ul {
+  flex-direction: column;
+  color: grey;
+  text-transform: none;
+  margin-left: 0px;
+  position: absolute;
+  bottom: 60px;
+  line-height: 0;
+}
+
+
+h2 {
+  color: white;
+}
