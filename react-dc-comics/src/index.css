@@ -39,3 +39,20 @@ ul li a:hover,
 ul li a.active {
   background-color: lightblue;
 }
+
+.blackContainer {
+  background-color: black;
+}
+
+.firstLine {
+  max-width: 1200px;
+  height: auto;
+  margin: 0px auto;
+  font-family: 'Open Sans';
+}
+
+h1 {
+  color: white;
+  margin: 5px;
+  padding: 40px;
+}
