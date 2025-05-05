@@ -128,3 +128,39 @@ h2 {
   width: 120%;
   height: auto;
 }
+
+.lightgrey {
+  background-color: #5e5a5a;
+}
+
+.lastFooter {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.button {
+  color: white;
+  border: 1px solid #00aeff;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.signs {
+  color: #00aeff;
+  display: flex;
+  gap: 30px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icons img {
+  width: 40px;
+  height: auto;
+}
