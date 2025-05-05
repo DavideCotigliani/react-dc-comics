@@ -118,3 +118,13 @@ h1 {
 h2 {
   color: white;
 }
+
+.dcLogo {
+  margin-left: 100px;
+
+}
+
+.dcLogo img {
+  width: 120%;
+  height: auto;
+}

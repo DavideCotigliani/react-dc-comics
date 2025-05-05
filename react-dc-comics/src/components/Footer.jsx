@@ -1,4 +1,6 @@
 
+import logoGrande from '../assets/img/footer-bg.jpg'
+import logoImmagine from '../assets/img/dc-logo-bg.png'
 const Footer = () => {
     return (
         <div className="dcBackground">
@@ -39,6 +41,9 @@ const Footer = () => {
                             <li>DC Universe</li>
                             <li>DC PowerVisa</li>
                         </ul>
+                    </div>
+                    <div className="dcLogo">
+                        <img src={logoImmagine} alt="" />
                     </div>
                 </div>
                 <div className="fourthList">
