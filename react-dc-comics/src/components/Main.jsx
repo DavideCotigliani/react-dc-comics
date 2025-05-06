@@ -3,12 +3,13 @@ import secondImagine from '../assets/img/buy-comics-merchandise.png'
 import thirdImagine from '../assets/img/buy-comics-subscriptions.png'
 import fourthImagine from '../assets/img/buy-comics-shop-locator.png'
 import fifthImagine from '../assets/img/buy-dc-power-visa.svg'
+import ListComics from './ListComics'
 const Main = () => {
     return (
         <>
             <div className="blackContainer">
                 <div className="firstLine">
-                    <h1>--&gt;Content goes here&lt;--</h1>
+                    <ListComics />
                 </div>
             </div>
             <div className="blueContainer">
