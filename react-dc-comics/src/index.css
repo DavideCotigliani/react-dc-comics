@@ -17,6 +17,17 @@
   margin-top: 2rem;
 }
 
+.prod-card {
+  flex-basis: 16%;
+  padding: 50px;
+  background-color: black;
+}
+
+.prod-card img {
+  display: block;
+  width: 100%;
+}
+
 /* Header */
 header {
   background-color: white;
@@ -61,6 +72,10 @@ ul li a.active {
 h1 {
   color: white;
   padding: 40px;
+}
+
+h3 {
+  color: white;
 }
 
 .blueContainer {
