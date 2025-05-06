@@ -158,13 +158,15 @@ const ListComics = () => {
 
     return (
         <section id="products">
-            <h2>I miei fumetti</h2>
+            <div className="text-center">
+                <h2>I miei fumetti</h2>
+            </div>
             <div className="container card-container">
                 <ComicCard title={comics[0].title} src={comics[0].thumb} />
                 <ComicCard title={comics[1].title} src={comics[1].thumb} />
                 <ComicCard title={comics[2].title} src={comics[2].thumb} />
                 <ComicCard title={comics[3].title} src={comics[3].thumb} />
-                <ComicCard title={comics[4].title} src={comics[4].thumb} />
+                <ComicCard title={comics[4].title} src={comics[5].thumb} />
                 <ComicCard title={comics[5].title} src={comics[5].thumb} />
                 <ComicCard title={comics[6].title} src={comics[6].thumb} />
                 <ComicCard title={comics[7].title} src={comics[7].thumb} />

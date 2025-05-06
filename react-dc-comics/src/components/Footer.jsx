@@ -49,13 +49,13 @@ const Footer = () => {
                         <div className="dcLogo">
                             <img src={logoImmagine} alt="" />
                         </div>
-                    </div>
-                    <div className="fourthList">
-                        <ul>
-                            <h2>SHOP</h2>
-                            <li>Shop DC</li>
-                            <li>Shop DC Collectibles</li>
-                        </ul>
+                        <div className="fourthList">
+                            <ul>
+                                <h2>SHOP</h2>
+                                <li>Shop DC</li>
+                                <li>Shop DC Collectibles</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
