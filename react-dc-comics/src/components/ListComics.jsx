@@ -163,9 +163,8 @@ const ListComics = () => {
             </div>
             <div className="container card-container">
                 {comics.map((comic) => (
-                    <ComicCard title={comic.title} src={comic.thumb} />
+                    <ComicCard key={comic.id} comic={comic} />
                 ))}
-
             </div>
         </section>
     )

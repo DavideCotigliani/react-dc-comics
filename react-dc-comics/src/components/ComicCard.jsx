@@ -1,8 +1,8 @@
-const ComicCard = (props) => {
+const ComicCard = ({ comic }) => {
     return (
         <div className="prod-card">
-            <img src={props.src} />
-            <h3>{props.title}</h3>
+            <img src={comic.thumb} />
+            <h3>{comic.title}</h3>
         </div>
     )
 }
